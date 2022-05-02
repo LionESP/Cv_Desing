@@ -1,6 +1,10 @@
 body{
-  background-color: RGB(146, 168, 209);
+  background: #00ff7c;
+  background: linear-gradient(90deg,#00ff7c 0%, #007eff 80%);
+  background: -webkit-linear-gradient(90deg,#00ff7c 0%, #007eff 80%);
+  background: -moz-linear-gradient(90deg,#00ff7c 0%, #007eff 80%);
 }
+
 
 h1{
   font-size: 30px;
@@ -28,4 +32,10 @@ h1{
 
 a:hover{
   color:green;
+}
+
+#SpikeImage{
+  box-shadow: 1px 1px 14px 4px rgba(0,0,0,0.83);
+  -webkit-box-shadow: 1px 1px 14px 4px rgba(0,0,0,0.83);
+  -moz-box-shadow: 1px 1px 14px 4px rgba(0,0,0,0.83);
 }
